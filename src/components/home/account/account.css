@@ -1,0 +1,43 @@
+.account-container{
+    min-height:200px;
+    background-color:#b3b3be;
+    width:14%;
+    /* text-align:center; */
+    margin:10% 0% 0% 10%;
+    float:left;
+    border-radius: 15px;
+    color:#4c63af;
+}
+.account-container p{
+    margin-left:7%;
+}
+.account-container span{
+    margin-left:3%;
+}
+.account-container button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4c63af;
+    width: 80%;
+    border: 0;
+    margin-left: 10%;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-radius:5px;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #538ab8;
+  }
+  #deactivated{
+    background: #af4c4c;
+  }
+  #deactivated:hover,#deactivated:active,#deactivated:focus {
+    background: #b85353;
+  }
